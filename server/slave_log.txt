@@ -1,0 +1,30 @@
+I am Leela, nice to meet you
+!LOGIN_EXISTS$leela1
+Start lobby
+!LOGIN_EXISTS$leela2
+Start lobby
+!LOGIN_EXISTS$leela3
+Start lobby
+!LOGIN_EXISTS$leela4
+Start lobby
+go to game
+game ;0
+event fpl|0;0
+event phase|game;0
++permission 0;0
+-permission 1;0
+game_state {"handi":0,"time2":"b3600#0#5","moves":[],"time1":"b3600#0#5","rev1":3,"is_revealed":0,"rev2":3,"title":"go","current":0,"phase":"game","n":9,"komi1":0,"asking":0,"last_move":"nada","fpl":0,"komi2":7.5,"board":"999999999999999999999999999999999999999999999999999999999999999999999999999999999","black_player":0};0
+Initiate 0.0044717180716639104 of 0
+event current|0;0
+game_state {"handi":0,"time2":"b3600#0#5","moves":[],"time1":"b3600#0#5","rev1":3,"is_revealed":0,"rev2":3,"title":"go","current":0,"phase":"game","n":9,"komi1":0,"asking":0,"last_move":"nada","fpl":0,"komi2":7.5,"board":"999999999999999999999999999999999999999999999999999999999999999999999999999999999","black_player":0};0
+error
+event time|b3599#0#5#b3600#0#5;0
+event time|b3598#0#5#b3600#0#5;0
+event time|b3597#0#5#b3600#0#5;0
+event time|b3596#0#5#b3600#0#5;0
+event time|b3595#0#5#b3600#0#5;0
+event time|b3594#0#5#b3600#0#5;0
+event time|b3593#0#5#b3600#0#5;0
+event time|b3592#0#5#b3600#0#5;0
+event time|b3591#0#5#b3600#0#5;0
+event time|b3590#0#5#b3600#0#5;0

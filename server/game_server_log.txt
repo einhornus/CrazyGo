@@ -1,0 +1,268 @@
+Received register_slave 
+register_slave 
+Received time 
+time 
+Received time 
+time 
+Received time 
+time 
+Received time 
+time 
+Received time 
+time 
+Received time 
+time 
+Received time 
+time 
+Received time 
+time 
+Received time 
+time 
+Received time 
+time 
+Received time 
+time 
+Received time 
+time 
+Received authorize id=2705;token=1497198279.962494|ft4P8Jeq1uRq-jTBrOgQxeVh32-wPqiXXCVEZeDqswMS7Y_UD4el4FPh4gLgJJa4FrCuOyfsswNVgD9zXJLL4A++;game_id=78725266;index=0
+authorize id=2705;token=1497198279.962494|ft4P8Jeq1uRq-jTBrOgQxeVh32-wPqiXXCVEZeDqswMS7Y_UD4el4FPh4gLgJJa4FrCuOyfsswNVgD9zXJLL4A++;game_id=78725266;index=0
+Received initialize id=2705;token=1497198279.962494|ft4P8Jeq1uRq-jTBrOgQxeVh32-wPqiXXCVEZeDqswMS7Y_UD4el4FPh4gLgJJa4FrCuOyfsswNVgD9zXJLL4A++;game_id=78725266;title=go;settings=board_size-9|handi-0|time-b3600#60#5;users=2705?2717
+initialize id=2705;token=1497198279.962494|ft4P8Jeq1uRq-jTBrOgQxeVh32-wPqiXXCVEZeDqswMS7Y_UD4el4FPh4gLgJJa4FrCuOyfsswNVgD9zXJLL4A++;game_id=78725266;title=go;settings=board_size-9|handi-0|time-b3600#60#5;users=2705?2717
+komi 0 0
+komi 1 7.5
+Received time 
+time 
+Received authorize id=2717;token=1497198290.475578|8IoCY4ZsomXmBw2FCqcfpK3nhW9Lg8F6HzOBJB96smAEfqN0-YrWQIwygB_LMLkHlLXV4nEVknyz42ELXaFDEw++;game_id=78725266;index=1
+authorize id=2717;token=1497198290.475578|8IoCY4ZsomXmBw2FCqcfpK3nhW9Lg8F6HzOBJB96smAEfqN0-YrWQIwygB_LMLkHlLXV4nEVknyz42ELXaFDEw++;game_id=78725266;index=1
+send game ;0
+send game ;1
+send event fpl|0;0
+send event fpl|0;1
+send event phase|game;0
+send event phase|game;1
+send +permission 0;0
+send +permission 0;1
+send -permission 1;0
+send -permission 1;1
+send game_state {"handi":0,"n":9,"board":"999999999999999999999999999999999999999999999999999999999999999999999999999999999","is_revealed":0,"phase":"game","last_move":"nada","fpl":0,"current":0,"title":"go","black_player":0,"komi2":7.5,"rev1":3,"komi1":0,"time1":"b3600#0#5","rev2":3,"asking":0,"moves":[],"time2":"b3600#0#5"};0
+send game_state {"handi":0,"n":9,"board":"999999999999999999999999999999999999999999999999999999999999999999999999999999999","is_revealed":0,"phase":"game","last_move":"nada","fpl":0,"current":0,"title":"go","black_player":0,"komi2":7.5,"rev1":3,"komi1":0,"time1":"b3600#0#5","rev2":3,"asking":0,"moves":[],"time2":"b3600#0#5"};1
+send event current|0;0
+send event current|0;1
+send game_state {"handi":0,"n":9,"board":"999999999999999999999999999999999999999999999999999999999999999999999999999999999","is_revealed":0,"phase":"game","last_move":"nada","fpl":0,"current":0,"title":"go","black_player":0,"komi2":7.5,"rev1":3,"komi1":0,"time1":"b3600#0#5","rev2":3,"asking":0,"moves":[],"time2":"b3600#0#5"};0
+send game_state {"handi":0,"n":9,"board":"999999999999999999999999999999999999999999999999999999999999999999999999999999999","is_revealed":0,"phase":"game","last_move":"nada","fpl":0,"current":0,"title":"go","black_player":0,"komi2":7.5,"rev1":3,"komi1":0,"time1":"b3600#0#5","rev2":3,"asking":0,"moves":[],"time2":"b3600#0#5"};1
+Received time 
+time 
+send event time|b3599#0#5#b3600#0#5;0
+send event time|b3599#0#5#b3600#0#5;1
+Received time 
+time 
+send event time|b3598#0#5#b3600#0#5;0
+send event time|b3598#0#5#b3600#0#5;1
+Received time 
+time 
+send event time|b3597#0#5#b3600#0#5;0
+send event time|b3597#0#5#b3600#0#5;1
+Received time 
+time 
+send event time|b3596#0#5#b3600#0#5;0
+send event time|b3596#0#5#b3600#0#5;1
+Received time 
+time 
+send event time|b3595#0#5#b3600#0#5;0
+send event time|b3595#0#5#b3600#0#5;1
+Received time 
+time 
+send event time|b3594#0#5#b3600#0#5;0
+send event time|b3594#0#5#b3600#0#5;1
+Received time 
+time 
+send event time|b3593#0#5#b3600#0#5;0
+send event time|b3593#0#5#b3600#0#5;1
+Received time 
+time 
+send event time|b3592#0#5#b3600#0#5;0
+send event time|b3592#0#5#b3600#0#5;1
+Received time 
+time 
+send event time|b3591#0#5#b3600#0#5;0
+send event time|b3591#0#5#b3600#0#5;1
+Received time 
+time 
+send event time|b3590#0#5#b3600#0#5;0
+send event time|b3590#0#5#b3600#0#5;1
+Received time 
+time 
+send event time|b3589#0#5#b3600#0#5;0
+send event time|b3589#0#5#b3600#0#5;1
+Received time 
+time 
+send event time|b3588#0#5#b3600#0#5;0
+send event time|b3588#0#5#b3600#0#5;1
+Received time 
+time 
+send event time|b3587#0#5#b3600#0#5;0
+send event time|b3587#0#5#b3600#0#5;1
+Received time 
+time 
+send event time|b3586#0#5#b3600#0#5;0
+send event time|b3586#0#5#b3600#0#5;1
+Received time 
+time 
+send event time|b3585#0#5#b3600#0#5;0
+send event time|b3585#0#5#b3600#0#5;1
+Received time 
+time 
+send event time|b3584#0#5#b3600#0#5;0
+send event time|b3584#0#5#b3600#0#5;1
+Received time 
+time 
+send event time|b3583#0#5#b3600#0#5;0
+send event time|b3583#0#5#b3600#0#5;1
+Received time 
+time 
+send event time|b3582#0#5#b3600#0#5;0
+send event time|b3582#0#5#b3600#0#5;1
+Received time 
+time 
+send event time|b3581#0#5#b3600#0#5;0
+send event time|b3581#0#5#b3600#0#5;1
+Received time 
+time 
+send event time|b3580#0#5#b3600#0#5;0
+send event time|b3580#0#5#b3600#0#5;1
+Received time 
+time 
+send event time|b3579#0#5#b3600#0#5;0
+send event time|b3579#0#5#b3600#0#5;1
+Received time 
+time 
+send event time|b3578#0#5#b3600#0#5;0
+send event time|b3578#0#5#b3600#0#5;1
+Received time 
+time 
+send event time|b3577#0#5#b3600#0#5;0
+send event time|b3577#0#5#b3600#0#5;1
+Received time 
+time 
+send event time|b3576#0#5#b3600#0#5;0
+send event time|b3576#0#5#b3600#0#5;1
+Received time 
+time 
+send event time|b3575#0#5#b3600#0#5;0
+send event time|b3575#0#5#b3600#0#5;1
+Received time 
+time 
+send event time|b3574#0#5#b3600#0#5;0
+send event time|b3574#0#5#b3600#0#5;1
+Received time 
+time 
+send event time|b3573#0#5#b3600#0#5;0
+send event time|b3573#0#5#b3600#0#5;1
+Received time 
+time 
+send event time|b3572#0#5#b3600#0#5;0
+send event time|b3572#0#5#b3600#0#5;1
+Received time 
+time 
+send event time|b3571#0#5#b3600#0#5;0
+send event time|b3571#0#5#b3600#0#5;1
+Received time 
+time 
+send event time|b3570#0#5#b3600#0#5;0
+send event time|b3570#0#5#b3600#0#5;1
+Received time 
+time 
+send event time|b3569#0#5#b3600#0#5;0
+send event time|b3569#0#5#b3600#0#5;1
+Received time 
+time 
+send event time|b3568#0#5#b3600#0#5;0
+send event time|b3568#0#5#b3600#0#5;1
+Received time 
+time 
+send event time|b3567#0#5#b3600#0#5;0
+send event time|b3567#0#5#b3600#0#5;1
+Received time 
+time 
+send event time|b3566#0#5#b3600#0#5;0
+send event time|b3566#0#5#b3600#0#5;1
+Received time 
+time 
+send event time|b3565#0#5#b3600#0#5;0
+send event time|b3565#0#5#b3600#0#5;1
+Received time 
+time 
+send event time|b3564#0#5#b3600#0#5;0
+send event time|b3564#0#5#b3600#0#5;1
+Received time 
+time 
+send event time|b3563#0#5#b3600#0#5;0
+send event time|b3563#0#5#b3600#0#5;1
+Received time 
+time 
+send event time|b3562#0#5#b3600#0#5;0
+send event time|b3562#0#5#b3600#0#5;1
+Received time 
+time 
+send event time|b3561#0#5#b3600#0#5;0
+send event time|b3561#0#5#b3600#0#5;1
+Received time 
+time 
+send event time|b3560#0#5#b3600#0#5;0
+send event time|b3560#0#5#b3600#0#5;1
+Received time 
+time 
+send event time|b3559#0#5#b3600#0#5;0
+send event time|b3559#0#5#b3600#0#5;1
+Received time 
+time 
+send event time|b3558#0#5#b3600#0#5;0
+send event time|b3558#0#5#b3600#0#5;1
+Received time 
+time 
+send event time|b3557#0#5#b3600#0#5;0
+send event time|b3557#0#5#b3600#0#5;1
+Received time 
+time 
+send event time|b3556#0#5#b3600#0#5;0
+send event time|b3556#0#5#b3600#0#5;1
+Received time 
+time 
+send event time|b3555#0#5#b3600#0#5;0
+send event time|b3555#0#5#b3600#0#5;1
+Received time 
+time 
+send event time|b3554#0#5#b3600#0#5;0
+send event time|b3554#0#5#b3600#0#5;1
+Received time 
+time 
+send event time|b3553#0#5#b3600#0#5;0
+send event time|b3553#0#5#b3600#0#5;1
+Received time 
+time 
+send event time|b3552#0#5#b3600#0#5;0
+send event time|b3552#0#5#b3600#0#5;1
+Received time 
+time 
+send event time|b3551#0#5#b3600#0#5;0
+send event time|b3551#0#5#b3600#0#5;1
+Received time 
+time 
+send event time|b3550#0#5#b3600#0#5;0
+send event time|b3550#0#5#b3600#0#5;1
+Received time 
+time 
+send event time|b3549#0#5#b3600#0#5;0
+send event time|b3549#0#5#b3600#0#5;1
+Received time 
+time 
+send event time|b3548#0#5#b3600#0#5;0
+send event time|b3548#0#5#b3600#0#5;1
+Received time 
+time 
+send event time|b3547#0#5#b3600#0#5;0
+send event time|b3547#0#5#b3600#0#5;1
+Received time 
+time 
+send event time|b3546#0#5#b3600#0#5;0
+send event time|b3546#0#5#b3600#0#5;1

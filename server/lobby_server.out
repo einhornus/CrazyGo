@@ -1,0 +1,31 @@
+Unhandled Error
+Traceback (most recent call last):
+  File "/home/server/Server.py", line 101, in launch
+    reactor.run()
+  File "/usr/local/lib/python3.5/dist-packages/twisted/internet/base.py", line 1199, in run
+    self.mainLoop()
+  File "/usr/local/lib/python3.5/dist-packages/twisted/internet/base.py", line 1211, in mainLoop
+    self.doIteration(t)
+  File "/usr/local/lib/python3.5/dist-packages/twisted/internet/epollreactor.py", line 235, in doPoll
+    log.callWithLogger(selectable, _drdw, selectable, fd, event)
+--- <exception caught here> ---
+  File "/usr/local/lib/python3.5/dist-packages/twisted/python/log.py", line 103, in callWithLogger
+    return callWithContext({"system": lp}, func, *args, **kw)
+  File "/usr/local/lib/python3.5/dist-packages/twisted/python/log.py", line 86, in callWithContext
+    return context.call({ILogContext: newCtx}, func, *args, **kw)
+  File "/usr/local/lib/python3.5/dist-packages/twisted/python/context.py", line 118, in callWithContext
+    return self.currentContext().callWithContext(ctx, func, *args, **kw)
+  File "/usr/local/lib/python3.5/dist-packages/twisted/python/context.py", line 81, in callWithContext
+    return func(*args,**kw)
+  File "/usr/local/lib/python3.5/dist-packages/twisted/internet/posixbase.py", line 610, in _doReadOrWrite
+    self._disconnectSelectable(selectable, why, inRead)
+  File "/usr/local/lib/python3.5/dist-packages/twisted/internet/posixbase.py", line 255, in _disconnectSelectable
+    selectable.connectionLost(f)
+  File "/usr/local/lib/python3.5/dist-packages/twisted/internet/tcp.py", line 292, in connectionLost
+    protocol.connectionLost(reason)
+  File "/home/server/Server.py", line 21, in connectionLost
+    self.factory.lost_connection_func(self)
+  File "/home/server/lobby_server_handlers/factory_utils.py", line 27, in lostConnectionFunc
+    sendMessageToAllClients(self.factory, '- '+str(self.id))
+builtins.AttributeError: 'ServerProtocol' object has no attribute 'id'
+

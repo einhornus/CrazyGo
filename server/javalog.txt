@@ -1,0 +1,9 @@
+I am Leela, nice to meet you
+!LOGIN_EXISTS$leela1
+Start lobby
+!LOGIN_EXISTS$leela2
+Start lobby
+!LOGIN_EXISTS$leela3
+Start lobby
+!LOGIN_EXISTS$leela4
+Start lobby

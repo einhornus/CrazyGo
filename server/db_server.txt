@@ -1,0 +1,3 @@
+2017-03-01 15:01:59+0400 [-] Log opened.
+2017-03-01 15:01:59+0400 [-] ServerProtocolFactory starting on 111
+2017-03-01 15:01:59+0400 [-] Starting factory <Server.ServerProtocolFactory object at 0x02809AD0>

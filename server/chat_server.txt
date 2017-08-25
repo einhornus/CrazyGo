@@ -1,0 +1,211 @@
+2017-07-16 12:57:56+0400 [-] Log opened.
+2017-07-16 12:57:56+0400 [-] ServerProtocolFactory starting on 114
+2017-07-16 12:57:56+0400 [-] Starting factory <Server.ServerProtocolFactory object at 0x03157B50>
+2017-07-16 12:58:40+0400 [Server.ServerProtocolFactory] New connection
+2017-07-16 12:58:40+0400 [-] Received authorize id=2717;token=1500195514.085701|dng1INHogLsIwQz-t9CarpRJ0o816JMSracpY2c6ETvU082pQ3h4ZZ2OCIQhpiU0PKtZQZml8kH-XXDNV4XN1A++
+2017-07-16 12:58:40+0400 [ServerProtocol,0,127.0.0.1] Got authorize id=2717;token=1500195514.085701|dng1INHogLsIwQz-t9CarpRJ0o816JMSracpY2c6ETvU082pQ3h4ZZ2OCIQhpiU0PKtZQZml8kH-XXDNV4XN1A++
+2017-07-16 12:58:40+0400 [-] authorize id=2717;token=1500195514.085701|dng1INHogLsIwQz-t9CarpRJ0o816JMSracpY2c6ETvU082pQ3h4ZZ2OCIQhpiU0PKtZQZml8kH-XXDNV4XN1A++
+2017-07-16 12:58:40+0400 [-] New connection from 2717
+2017-07-16 12:58:40+0400 [-] send all_users 2717;
+2017-07-16 12:58:40+0400 [ServerProtocol,0,127.0.0.1] Send line 'all_users 2717;' to 2717
+2017-07-16 12:58:40+0400 [-] LEEEN 0
+2017-07-16 12:58:40+0400 [-] send all_games 
+2017-07-16 12:58:40+0400 [ServerProtocol,0,127.0.0.1] Send line 'all_games ' to 2717
+2017-07-16 12:58:54+0400 [-] []
+2017-07-16 12:58:54+0400 [-] lost connection
+2017-07-16 12:58:54+0400 [ServerProtocol,0,127.0.0.1] Lost connection
+2017-07-16 12:59:23+0400 [Server.ServerProtocolFactory] New connection
+2017-07-16 12:59:23+0400 [-] Received authorize id=2717;token=1500195514.085701|dng1INHogLsIwQz-t9CarpRJ0o816JMSracpY2c6ETvU082pQ3h4ZZ2OCIQhpiU0PKtZQZml8kH-XXDNV4XN1A++
+2017-07-16 12:59:23+0400 [ServerProtocol,1,127.0.0.1] Got authorize id=2717;token=1500195514.085701|dng1INHogLsIwQz-t9CarpRJ0o816JMSracpY2c6ETvU082pQ3h4ZZ2OCIQhpiU0PKtZQZml8kH-XXDNV4XN1A++
+2017-07-16 12:59:23+0400 [-] authorize id=2717;token=1500195514.085701|dng1INHogLsIwQz-t9CarpRJ0o816JMSracpY2c6ETvU082pQ3h4ZZ2OCIQhpiU0PKtZQZml8kH-XXDNV4XN1A++
+2017-07-16 12:59:23+0400 [-] New connection from 2717
+2017-07-16 12:59:23+0400 [-] send all_users 2717;
+2017-07-16 12:59:23+0400 [ServerProtocol,1,127.0.0.1] Send line 'all_users 2717;' to 2717
+2017-07-16 12:59:23+0400 [-] LEEEN 0
+2017-07-16 12:59:23+0400 [-] send all_games 
+2017-07-16 12:59:23+0400 [ServerProtocol,1,127.0.0.1] Send line 'all_games ' to 2717
+2017-07-16 13:08:15+0400 [-] []
+2017-07-16 13:08:15+0400 [-] lost connection
+2017-07-16 13:08:15+0400 [ServerProtocol,1,127.0.0.1] Lost connection
+2017-07-16 15:54:54+0400 [Server.ServerProtocolFactory] New connection
+2017-07-16 15:54:54+0400 [-] Received authorize id=2717;token=1500206085.132257|gqxxu33oAcGnwpZnu7VBkL078EKf6QvKER1hVRg4CmszJbXZROs7_C1E3MJ5UNwuL7-lpl4QAl4z6qRryfqcSw++
+2017-07-16 15:54:54+0400 [ServerProtocol,2,127.0.0.1] Got authorize id=2717;token=1500206085.132257|gqxxu33oAcGnwpZnu7VBkL078EKf6QvKER1hVRg4CmszJbXZROs7_C1E3MJ5UNwuL7-lpl4QAl4z6qRryfqcSw++
+2017-07-16 15:54:54+0400 [-] authorize id=2717;token=1500206085.132257|gqxxu33oAcGnwpZnu7VBkL078EKf6QvKER1hVRg4CmszJbXZROs7_C1E3MJ5UNwuL7-lpl4QAl4z6qRryfqcSw++
+2017-07-16 15:54:54+0400 [-] New connection from 2717
+2017-07-16 15:54:54+0400 [-] send all_users 2717;
+2017-07-16 15:54:54+0400 [ServerProtocol,2,127.0.0.1] Send line 'all_users 2717;' to 2717
+2017-07-16 15:54:54+0400 [-] LEEEN 0
+2017-07-16 15:54:54+0400 [-] send all_games 
+2017-07-16 15:54:54+0400 [ServerProtocol,2,127.0.0.1] Send line 'all_games ' to 2717
+2017-07-16 15:56:33+0400 [-] []
+2017-07-16 15:56:33+0400 [-] lost connection
+2017-07-16 15:56:33+0400 [ServerProtocol,2,127.0.0.1] Lost connection
+2017-07-16 15:57:27+0400 [Server.ServerProtocolFactory] New connection
+2017-07-16 15:57:27+0400 [-] Received authorize id=2717;token=1500206241.576368|hNZR6W4dNvoAcX01EbGTmSN6Y9toGrndU4Sin_gItr57No4d1Bh95G6bSSErjnP4D9tyBYmeqGMa7pOMzCFiIg++
+2017-07-16 15:57:27+0400 [ServerProtocol,3,127.0.0.1] Got authorize id=2717;token=1500206241.576368|hNZR6W4dNvoAcX01EbGTmSN6Y9toGrndU4Sin_gItr57No4d1Bh95G6bSSErjnP4D9tyBYmeqGMa7pOMzCFiIg++
+2017-07-16 15:57:27+0400 [-] authorize id=2717;token=1500206241.576368|hNZR6W4dNvoAcX01EbGTmSN6Y9toGrndU4Sin_gItr57No4d1Bh95G6bSSErjnP4D9tyBYmeqGMa7pOMzCFiIg++
+2017-07-16 15:57:27+0400 [-] New connection from 2717
+2017-07-16 15:57:27+0400 [-] send all_users 2717;
+2017-07-16 15:57:27+0400 [ServerProtocol,3,127.0.0.1] Send line 'all_users 2717;' to 2717
+2017-07-16 15:57:27+0400 [-] LEEEN 0
+2017-07-16 15:57:27+0400 [-] send all_games 
+2017-07-16 15:57:27+0400 [ServerProtocol,3,127.0.0.1] Send line 'all_games ' to 2717
+2017-07-16 15:59:41+0400 [-] []
+2017-07-16 15:59:41+0400 [-] lost connection
+2017-07-16 15:59:41+0400 [ServerProtocol,3,127.0.0.1] Lost connection
+2017-07-16 16:00:06+0400 [Server.ServerProtocolFactory] New connection
+2017-07-16 16:00:06+0400 [-] Received authorize id=2717;token=1500206398.457409|2WWVkX9t740NKYn8SsgzW5s6tpMGem0pwkEIDtMA9M2vkSf10-Rx1QAZnO0fmvqS09Z_nd0ksOfwuPjiHERKzA++
+2017-07-16 16:00:06+0400 [ServerProtocol,4,127.0.0.1] Got authorize id=2717;token=1500206398.457409|2WWVkX9t740NKYn8SsgzW5s6tpMGem0pwkEIDtMA9M2vkSf10-Rx1QAZnO0fmvqS09Z_nd0ksOfwuPjiHERKzA++
+2017-07-16 16:00:06+0400 [-] authorize id=2717;token=1500206398.457409|2WWVkX9t740NKYn8SsgzW5s6tpMGem0pwkEIDtMA9M2vkSf10-Rx1QAZnO0fmvqS09Z_nd0ksOfwuPjiHERKzA++
+2017-07-16 16:00:06+0400 [-] New connection from 2717
+2017-07-16 16:00:06+0400 [-] send all_users 2717;
+2017-07-16 16:00:06+0400 [ServerProtocol,4,127.0.0.1] Send line 'all_users 2717;' to 2717
+2017-07-16 16:00:06+0400 [-] LEEEN 0
+2017-07-16 16:00:06+0400 [-] send all_games 
+2017-07-16 16:00:06+0400 [ServerProtocol,4,127.0.0.1] Send line 'all_games ' to 2717
+2017-07-16 16:03:47+0400 [-] []
+2017-07-16 16:03:47+0400 [-] lost connection
+2017-07-16 16:03:47+0400 [ServerProtocol,4,127.0.0.1] Lost connection
+2017-07-16 16:06:45+0400 [Server.ServerProtocolFactory] New connection
+2017-07-16 16:06:45+0400 [-] Received authorize id=2717;token=1500206798.731681|2Gk2BHGCQXxzkJSGvWg1ljqYjy9ieWKPjsXZevdz678S1XuChMi3QqrlzjkT4WZdwrd6IXsPAIiV9Q-ygofENg++
+2017-07-16 16:06:45+0400 [ServerProtocol,5,127.0.0.1] Got authorize id=2717;token=1500206798.731681|2Gk2BHGCQXxzkJSGvWg1ljqYjy9ieWKPjsXZevdz678S1XuChMi3QqrlzjkT4WZdwrd6IXsPAIiV9Q-ygofENg++
+2017-07-16 16:06:45+0400 [-] authorize id=2717;token=1500206798.731681|2Gk2BHGCQXxzkJSGvWg1ljqYjy9ieWKPjsXZevdz678S1XuChMi3QqrlzjkT4WZdwrd6IXsPAIiV9Q-ygofENg++
+2017-07-16 16:06:45+0400 [-] New connection from 2717
+2017-07-16 16:06:45+0400 [-] send all_users 2717;
+2017-07-16 16:06:45+0400 [ServerProtocol,5,127.0.0.1] Send line 'all_users 2717;' to 2717
+2017-07-16 16:06:45+0400 [-] LEEEN 0
+2017-07-16 16:06:45+0400 [-] send all_games 
+2017-07-16 16:06:45+0400 [ServerProtocol,5,127.0.0.1] Send line 'all_games ' to 2717
+2017-07-16 16:06:54+0400 [-] []
+2017-07-16 16:06:54+0400 [-] lost connection
+2017-07-16 16:06:54+0400 [ServerProtocol,5,127.0.0.1] Lost connection
+2017-07-16 16:07:48+0400 [Server.ServerProtocolFactory] New connection
+2017-07-16 16:07:48+0400 [-] Received authorize id=2717;token=1500206863.053746|dSCVbYWa5Bc39FOOC0WlxKr9gTDhLNU7nXxV7alNs8DuvWWwvZ1Wm-7bPLR-rduXvIaBLIAfwJItpk8r6I9KuA++
+2017-07-16 16:07:48+0400 [ServerProtocol,6,127.0.0.1] Got authorize id=2717;token=1500206863.053746|dSCVbYWa5Bc39FOOC0WlxKr9gTDhLNU7nXxV7alNs8DuvWWwvZ1Wm-7bPLR-rduXvIaBLIAfwJItpk8r6I9KuA++
+2017-07-16 16:07:48+0400 [-] authorize id=2717;token=1500206863.053746|dSCVbYWa5Bc39FOOC0WlxKr9gTDhLNU7nXxV7alNs8DuvWWwvZ1Wm-7bPLR-rduXvIaBLIAfwJItpk8r6I9KuA++
+2017-07-16 16:07:48+0400 [-] New connection from 2717
+2017-07-16 16:07:48+0400 [-] send all_users 2717;
+2017-07-16 16:07:48+0400 [ServerProtocol,6,127.0.0.1] Send line 'all_users 2717;' to 2717
+2017-07-16 16:07:48+0400 [-] LEEEN 0
+2017-07-16 16:07:48+0400 [-] send all_games 
+2017-07-16 16:07:48+0400 [ServerProtocol,6,127.0.0.1] Send line 'all_games ' to 2717
+2017-07-16 16:08:06+0400 [-] []
+2017-07-16 16:08:06+0400 [-] lost connection
+2017-07-16 16:08:06+0400 [ServerProtocol,6,127.0.0.1] Lost connection
+2017-07-16 16:08:53+0400 [Server.ServerProtocolFactory] New connection
+2017-07-16 16:08:53+0400 [-] Received authorize id=2717;token=1500206927.110665|G50gHdIjykiBoqhP98OqqnFrmCErbAdF1eSdcIa6lnEpTetHgh0XFs4M7v5FrPntduMnJ0N1v_3ku0UzBhoKpA++
+2017-07-16 16:08:53+0400 [ServerProtocol,7,127.0.0.1] Got authorize id=2717;token=1500206927.110665|G50gHdIjykiBoqhP98OqqnFrmCErbAdF1eSdcIa6lnEpTetHgh0XFs4M7v5FrPntduMnJ0N1v_3ku0UzBhoKpA++
+2017-07-16 16:08:53+0400 [-] authorize id=2717;token=1500206927.110665|G50gHdIjykiBoqhP98OqqnFrmCErbAdF1eSdcIa6lnEpTetHgh0XFs4M7v5FrPntduMnJ0N1v_3ku0UzBhoKpA++
+2017-07-16 16:08:53+0400 [-] New connection from 2717
+2017-07-16 16:08:53+0400 [-] send all_users 2717;
+2017-07-16 16:08:53+0400 [ServerProtocol,7,127.0.0.1] Send line 'all_users 2717;' to 2717
+2017-07-16 16:08:53+0400 [-] LEEEN 0
+2017-07-16 16:08:53+0400 [-] send all_games 
+2017-07-16 16:08:53+0400 [ServerProtocol,7,127.0.0.1] Send line 'all_games ' to 2717
+2017-07-16 16:08:59+0400 [-] []
+2017-07-16 16:08:59+0400 [-] lost connection
+2017-07-16 16:08:59+0400 [ServerProtocol,7,127.0.0.1] Lost connection
+2017-07-16 16:09:45+0400 [Server.ServerProtocolFactory] New connection
+2017-07-16 16:09:45+0400 [-] Received authorize id=2717;token=1500206978.620089|bwuoBA7e5Swxgw0evkXLg9cw6pX4W6bu6HE1MxFF7S8KwDtN8zq4XAhuRkwfrJL8XvXZNXZUw95NQ8LOhq39DA++
+2017-07-16 16:09:45+0400 [ServerProtocol,8,127.0.0.1] Got authorize id=2717;token=1500206978.620089|bwuoBA7e5Swxgw0evkXLg9cw6pX4W6bu6HE1MxFF7S8KwDtN8zq4XAhuRkwfrJL8XvXZNXZUw95NQ8LOhq39DA++
+2017-07-16 16:09:45+0400 [-] authorize id=2717;token=1500206978.620089|bwuoBA7e5Swxgw0evkXLg9cw6pX4W6bu6HE1MxFF7S8KwDtN8zq4XAhuRkwfrJL8XvXZNXZUw95NQ8LOhq39DA++
+2017-07-16 16:09:45+0400 [-] New connection from 2717
+2017-07-16 16:09:45+0400 [-] send all_users 2717;
+2017-07-16 16:09:45+0400 [ServerProtocol,8,127.0.0.1] Send line 'all_users 2717;' to 2717
+2017-07-16 16:09:45+0400 [-] LEEEN 0
+2017-07-16 16:09:45+0400 [-] send all_games 
+2017-07-16 16:09:45+0400 [ServerProtocol,8,127.0.0.1] Send line 'all_games ' to 2717
+2017-07-16 16:13:04+0400 [-] []
+2017-07-16 16:13:04+0400 [-] lost connection
+2017-07-16 16:13:04+0400 [ServerProtocol,8,127.0.0.1] Lost connection
+2017-07-16 16:14:05+0400 [Server.ServerProtocolFactory] New connection
+2017-07-16 16:14:05+0400 [-] Received authorize id=2717;token=1500207240.624445|Jbev0Tco_jBYuZw_E63Vsf6hoSMgT5vpg-y9whUppB364P-NJ-IvJXzRW0tlrKBoE5dG3KpxAws2LnSkztwgwQ++
+2017-07-16 16:14:05+0400 [ServerProtocol,9,127.0.0.1] Got authorize id=2717;token=1500207240.624445|Jbev0Tco_jBYuZw_E63Vsf6hoSMgT5vpg-y9whUppB364P-NJ-IvJXzRW0tlrKBoE5dG3KpxAws2LnSkztwgwQ++
+2017-07-16 16:14:05+0400 [-] authorize id=2717;token=1500207240.624445|Jbev0Tco_jBYuZw_E63Vsf6hoSMgT5vpg-y9whUppB364P-NJ-IvJXzRW0tlrKBoE5dG3KpxAws2LnSkztwgwQ++
+2017-07-16 16:14:05+0400 [-] New connection from 2717
+2017-07-16 16:14:05+0400 [-] send all_users 2717;
+2017-07-16 16:14:05+0400 [ServerProtocol,9,127.0.0.1] Send line 'all_users 2717;' to 2717
+2017-07-16 16:14:05+0400 [-] LEEEN 0
+2017-07-16 16:14:05+0400 [-] send all_games 
+2017-07-16 16:14:05+0400 [ServerProtocol,9,127.0.0.1] Send line 'all_games ' to 2717
+2017-07-16 16:14:22+0400 [-] []
+2017-07-16 16:14:22+0400 [-] lost connection
+2017-07-16 16:14:22+0400 [ServerProtocol,9,127.0.0.1] Lost connection
+2017-07-16 16:14:30+0400 [Server.ServerProtocolFactory] New connection
+2017-07-16 16:14:30+0400 [-] Received authorize id=2717;token=1500207265.604023|hdsNDLf0VdWtMIQ7Z_vTgxMKubAC6pgQXIEjGG-rGcl7_fIZ14D8C4j5e_fR2RLpZZvZWGG1N0nrJsFa1PAFrg++
+2017-07-16 16:14:30+0400 [ServerProtocol,10,127.0.0.1] Got authorize id=2717;token=1500207265.604023|hdsNDLf0VdWtMIQ7Z_vTgxMKubAC6pgQXIEjGG-rGcl7_fIZ14D8C4j5e_fR2RLpZZvZWGG1N0nrJsFa1PAFrg++
+2017-07-16 16:14:30+0400 [-] authorize id=2717;token=1500207265.604023|hdsNDLf0VdWtMIQ7Z_vTgxMKubAC6pgQXIEjGG-rGcl7_fIZ14D8C4j5e_fR2RLpZZvZWGG1N0nrJsFa1PAFrg++
+2017-07-16 16:14:30+0400 [-] New connection from 2717
+2017-07-16 16:14:30+0400 [-] send all_users 2717;
+2017-07-16 16:14:30+0400 [ServerProtocol,10,127.0.0.1] Send line 'all_users 2717;' to 2717
+2017-07-16 16:14:30+0400 [-] LEEEN 0
+2017-07-16 16:14:30+0400 [-] send all_games 
+2017-07-16 16:14:30+0400 [ServerProtocol,10,127.0.0.1] Send line 'all_games ' to 2717
+2017-07-16 16:14:32+0400 [-] []
+2017-07-16 16:14:32+0400 [-] lost connection
+2017-07-16 16:14:32+0400 [ServerProtocol,10,127.0.0.1] Lost connection
+2017-07-16 16:15:45+0400 [Server.ServerProtocolFactory] New connection
+2017-07-16 16:15:45+0400 [-] Received authorize id=2717;token=1500207339.922521|hhoL2OCmnjLcU7_pKMOtKCVEVQV5AoS9ZHu6WMUzPjfqzdFl1SgnCm13EjWXVIu0YfZPfizB94oN7mxRgULl-g++
+2017-07-16 16:15:45+0400 [ServerProtocol,11,127.0.0.1] Got authorize id=2717;token=1500207339.922521|hhoL2OCmnjLcU7_pKMOtKCVEVQV5AoS9ZHu6WMUzPjfqzdFl1SgnCm13EjWXVIu0YfZPfizB94oN7mxRgULl-g++
+2017-07-16 16:15:45+0400 [-] authorize id=2717;token=1500207339.922521|hhoL2OCmnjLcU7_pKMOtKCVEVQV5AoS9ZHu6WMUzPjfqzdFl1SgnCm13EjWXVIu0YfZPfizB94oN7mxRgULl-g++
+2017-07-16 16:15:45+0400 [-] New connection from 2717
+2017-07-16 16:15:45+0400 [-] send all_users 2717;
+2017-07-16 16:15:45+0400 [ServerProtocol,11,127.0.0.1] Send line 'all_users 2717;' to 2717
+2017-07-16 16:15:45+0400 [-] LEEEN 0
+2017-07-16 16:15:45+0400 [-] send all_games 
+2017-07-16 16:15:45+0400 [ServerProtocol,11,127.0.0.1] Send line 'all_games ' to 2717
+2017-07-16 16:16:03+0400 [-] []
+2017-07-16 16:16:03+0400 [-] lost connection
+2017-07-16 16:16:03+0400 [ServerProtocol,11,127.0.0.1] Lost connection
+2017-07-16 16:20:55+0400 [Server.ServerProtocolFactory] New connection
+2017-07-16 16:20:55+0400 [-] Received authorize id=2717;token=1500207647.13989|7sQdTBPsGq_6_mhZorhtgaTwJjGv1qnAmYZH4DYkHxfHqap42IcKT1488tZVt_z_qNy0_MMKLt9BO8Js9RGV5g++
+2017-07-16 16:20:55+0400 [ServerProtocol,12,127.0.0.1] Got authorize id=2717;token=1500207647.13989|7sQdTBPsGq_6_mhZorhtgaTwJjGv1qnAmYZH4DYkHxfHqap42IcKT1488tZVt_z_qNy0_MMKLt9BO8Js9RGV5g++
+2017-07-16 16:20:55+0400 [-] authorize id=2717;token=1500207647.13989|7sQdTBPsGq_6_mhZorhtgaTwJjGv1qnAmYZH4DYkHxfHqap42IcKT1488tZVt_z_qNy0_MMKLt9BO8Js9RGV5g++
+2017-07-16 16:20:55+0400 [-] New connection from 2717
+2017-07-16 16:20:55+0400 [-] send all_users 2717;
+2017-07-16 16:20:55+0400 [ServerProtocol,12,127.0.0.1] Send line 'all_users 2717;' to 2717
+2017-07-16 16:20:55+0400 [-] LEEEN 0
+2017-07-16 16:20:55+0400 [-] send all_games 
+2017-07-16 16:20:55+0400 [ServerProtocol,12,127.0.0.1] Send line 'all_games ' to 2717
+2017-07-16 16:22:02+0400 [-] []
+2017-07-16 16:22:02+0400 [-] lost connection
+2017-07-16 16:22:02+0400 [ServerProtocol,12,127.0.0.1] Lost connection
+2017-07-16 16:26:37+0400 [Server.ServerProtocolFactory] New connection
+2017-07-16 16:26:37+0400 [-] Received authorize id=2717;token=1500207991.569437|4yJxOWKmOBl0-iQq6YO764HM4jGGxr5dTrGlfUhNzYKn1DgvxzggbSjH9gYaeeDBZzqtJB_9ttp9oHxUIjXZYw++
+2017-07-16 16:26:37+0400 [ServerProtocol,13,127.0.0.1] Got authorize id=2717;token=1500207991.569437|4yJxOWKmOBl0-iQq6YO764HM4jGGxr5dTrGlfUhNzYKn1DgvxzggbSjH9gYaeeDBZzqtJB_9ttp9oHxUIjXZYw++
+2017-07-16 16:26:37+0400 [-] authorize id=2717;token=1500207991.569437|4yJxOWKmOBl0-iQq6YO764HM4jGGxr5dTrGlfUhNzYKn1DgvxzggbSjH9gYaeeDBZzqtJB_9ttp9oHxUIjXZYw++
+2017-07-16 16:26:37+0400 [-] New connection from 2717
+2017-07-16 16:26:37+0400 [-] send all_users 2717;
+2017-07-16 16:26:37+0400 [ServerProtocol,13,127.0.0.1] Send line 'all_users 2717;' to 2717
+2017-07-16 16:26:37+0400 [-] LEEEN 0
+2017-07-16 16:26:37+0400 [-] send all_games 
+2017-07-16 16:26:37+0400 [ServerProtocol,13,127.0.0.1] Send line 'all_games ' to 2717
+2017-07-16 16:27:32+0400 [-] []
+2017-07-16 16:27:32+0400 [-] lost connection
+2017-07-16 16:27:32+0400 [ServerProtocol,13,127.0.0.1] Lost connection
+2017-07-16 16:28:25+0400 [Server.ServerProtocolFactory] New connection
+2017-07-16 16:28:25+0400 [-] Received authorize id=2717;token=1500208100.225209|xylIy31LDwgeXcFdgSfjPWAW1c7xlbbF-f8Z-ZqbSQoMzfTsVzDgk0mbrpFll3u94V6fh2Hj2MzxL3k7HMdT4A++
+2017-07-16 16:28:25+0400 [ServerProtocol,14,127.0.0.1] Got authorize id=2717;token=1500208100.225209|xylIy31LDwgeXcFdgSfjPWAW1c7xlbbF-f8Z-ZqbSQoMzfTsVzDgk0mbrpFll3u94V6fh2Hj2MzxL3k7HMdT4A++
+2017-07-16 16:28:25+0400 [-] authorize id=2717;token=1500208100.225209|xylIy31LDwgeXcFdgSfjPWAW1c7xlbbF-f8Z-ZqbSQoMzfTsVzDgk0mbrpFll3u94V6fh2Hj2MzxL3k7HMdT4A++
+2017-07-16 16:28:25+0400 [-] New connection from 2717
+2017-07-16 16:28:25+0400 [-] send all_users 2717;
+2017-07-16 16:28:25+0400 [ServerProtocol,14,127.0.0.1] Send line 'all_users 2717;' to 2717
+2017-07-16 16:28:25+0400 [-] LEEEN 0
+2017-07-16 16:28:25+0400 [-] send all_games 
+2017-07-16 16:28:25+0400 [ServerProtocol,14,127.0.0.1] Send line 'all_games ' to 2717
+2017-07-16 16:28:41+0400 [-] []
+2017-07-16 16:28:41+0400 [-] lost connection
+2017-07-16 16:28:41+0400 [ServerProtocol,14,127.0.0.1] Lost connection
+2017-07-16 17:06:06+0400 [Server.ServerProtocolFactory] New connection
+2017-07-16 17:06:06+0400 [-] Received authorize id=2717;token=1500210361.136272|02XkSGcQK99EowAzjsJc0UuUj95ISW0qCAjBG0uDQ3C-i_Co6grOSx6iiWyugprjkmS2wKffSZNRsuFotHMvig++
+2017-07-16 17:06:06+0400 [ServerProtocol,15,127.0.0.1] Got authorize id=2717;token=1500210361.136272|02XkSGcQK99EowAzjsJc0UuUj95ISW0qCAjBG0uDQ3C-i_Co6grOSx6iiWyugprjkmS2wKffSZNRsuFotHMvig++
+2017-07-16 17:06:06+0400 [-] authorize id=2717;token=1500210361.136272|02XkSGcQK99EowAzjsJc0UuUj95ISW0qCAjBG0uDQ3C-i_Co6grOSx6iiWyugprjkmS2wKffSZNRsuFotHMvig++
+2017-07-16 17:06:06+0400 [-] New connection from 2717
+2017-07-16 17:06:06+0400 [-] send all_users 2717;
+2017-07-16 17:06:06+0400 [ServerProtocol,15,127.0.0.1] Send line 'all_users 2717;' to 2717
+2017-07-16 17:06:06+0400 [-] LEEEN 0
+2017-07-16 17:06:06+0400 [-] send all_games 
+2017-07-16 17:06:06+0400 [ServerProtocol,15,127.0.0.1] Send line 'all_games ' to 2717
+2017-07-16 17:10:20+0400 [-] []
+2017-07-16 17:10:20+0400 [-] lost connection
+2017-07-16 17:10:20+0400 [ServerProtocol,15,127.0.0.1] Lost connection
