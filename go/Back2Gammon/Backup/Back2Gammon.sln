@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2017
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Back2Gammon", "Back2Gammon.csproj", "{AC9B2BBA-DAB5-7BF2-6E6B-A6904E59BE6C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Back2Gammon.Editor", "Back2Gammon.Editor.csproj", "{8B6EAED5-E433-0EBF-3473-5C20A477F139}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "..\Tests\Tests.csproj", "{8EDF4429-251A-416D-BB68-93F227191BCF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Neurolib", "Neurolib\Neurolib.csproj", "{DC5A7627-B8C4-4BE2-AA4A-799AEA6163B0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC9B2BBA-DAB5-7BF2-6E6B-A6904E59BE6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC9B2BBA-DAB5-7BF2-6E6B-A6904E59BE6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC9B2BBA-DAB5-7BF2-6E6B-A6904E59BE6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC9B2BBA-DAB5-7BF2-6E6B-A6904E59BE6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B6EAED5-E433-0EBF-3473-5C20A477F139}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B6EAED5-E433-0EBF-3473-5C20A477F139}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B6EAED5-E433-0EBF-3473-5C20A477F139}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B6EAED5-E433-0EBF-3473-5C20A477F139}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8EDF4429-251A-416D-BB68-93F227191BCF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8EDF4429-251A-416D-BB68-93F227191BCF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8EDF4429-251A-416D-BB68-93F227191BCF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8EDF4429-251A-416D-BB68-93F227191BCF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC5A7627-B8C4-4BE2-AA4A-799AEA6163B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC5A7627-B8C4-4BE2-AA4A-799AEA6163B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC5A7627-B8C4-4BE2-AA4A-799AEA6163B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC5A7627-B8C4-4BE2-AA4A-799AEA6163B0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 4f6e7273df6b6094da4c04c2870d5dd5
+timeCreated: 1495082308
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Yama Moto Condensed
+  fontNames:
+  - Yama Moto Condensed
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

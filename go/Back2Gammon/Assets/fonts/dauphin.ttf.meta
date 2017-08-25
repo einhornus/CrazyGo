@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: c05e4b27496aadf46947a476eb50a523
+timeCreated: 1485806214
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Dauphin
+  fontNames:
+  - Dauphin
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

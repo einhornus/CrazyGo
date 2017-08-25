@@ -1,0 +1,2 @@
+C:\Users\Einhorn\Desktop\back2gammon\Back2Gammon\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache
+C:\Users\Einhorn\Desktop\go3\go2\go\Back2Gammon\obj\Debug\Assembly-CSharp.csprojResolveAssemblyReference.cache

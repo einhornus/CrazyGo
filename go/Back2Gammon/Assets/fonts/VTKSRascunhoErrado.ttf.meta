@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: fbc1bdba1dbbdf44a81c9535806b82dc
+timeCreated: 1485801931
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: vtks Rascunho  Errado
+  fontNames:
+  - vtks Rascunho  Errado
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: fdffe5fd47add614bb0cf4e3dea731d4
+timeCreated: 1485801931
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Wolf's Bane
+  fontNames:
+  - Wolf's Bane
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

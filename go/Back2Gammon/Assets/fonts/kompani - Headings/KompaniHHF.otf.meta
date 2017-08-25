@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 6896235b4bf7f414bac6ce382144d4fc
+timeCreated: 1495082308
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Kompani
+  fontNames:
+  - Kompani
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

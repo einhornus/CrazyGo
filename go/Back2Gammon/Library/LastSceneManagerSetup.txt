@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Forms/lobby.unity
+  isLoaded: 1
+  isActive: 1

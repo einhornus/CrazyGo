@@ -1,0 +1,16 @@
+C:\Users\Einhorn\Desktop\CrazyGoProject\go3\go2\go\Tests\bin\Debug\Tests.dll
+C:\Users\Einhorn\Desktop\CrazyGoProject\go3\go2\go\Tests\bin\Debug\Tests.pdb
+C:\Users\Einhorn\Desktop\CrazyGoProject\go3\go2\go\Tests\bin\Debug\nunit.framework.dll
+C:\Users\Einhorn\Desktop\CrazyGoProject\go3\go2\go\Tests\bin\Debug\nunit.framework.xml
+C:\Users\Einhorn\Desktop\CrazyGoProject\go3\go2\go\Tests\obj\Debug\Tests.csprojResolveAssemblyReference.cache
+C:\Users\Einhorn\Desktop\CrazyGoProject\go3\go2\go\Tests\obj\Debug\Tests.dll
+C:\Users\Einhorn\Desktop\CrazyGoProject\go3\go2\go\Tests\obj\Debug\Tests.pdb
+C:\Users\Einhorn\Desktop\CrazyGoProject\go3\go2\go\Tests\bin\Debug\Assembly-CSharp.dll
+C:\Users\Einhorn\Desktop\CrazyGoProject\go3\go2\go\Tests\bin\Debug\UnityEngine.dll
+C:\Users\Einhorn\Desktop\CrazyGoProject\go3\go2\go\Tests\bin\Debug\BrainDuelsLib.dll
+C:\Users\Einhorn\Desktop\CrazyGoProject\go3\go2\go\Tests\bin\Debug\UnityEditor.dll
+C:\Users\Einhorn\Desktop\CrazyGoProject\go3\go2\go\Tests\bin\Debug\Newtonsoft.Json.Net20.dll
+C:\Users\Einhorn\Desktop\CrazyGoProject\go3\go2\go\Tests\bin\Debug\Assembly-CSharp.pdb
+C:\Users\Einhorn\Desktop\CrazyGoProject\go3\go2\go\Tests\bin\Debug\UnityEngine.xml
+C:\Users\Einhorn\Desktop\CrazyGoProject\go3\go2\go\Tests\bin\Debug\BrainDuelsLib.pdb
+C:\Users\Einhorn\Desktop\CrazyGoProject\go3\go2\go\Tests\bin\Debug\UnityEditor.xml

@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: dd47e255d6d55824e89c88f0f2e7cc27
+timeCreated: 1485801931
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Wolf's Bane Italic
+  fontNames:
+  - Wolf's Bane Italic
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

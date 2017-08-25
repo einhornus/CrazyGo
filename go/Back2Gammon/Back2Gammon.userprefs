@@ -1,0 +1,30 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.AttachToProcess" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Utils.cs">
+    <Files>
+      <File FileName="Assets\Controls\LobbyFormControl\IAP.cs" Line="1" Column="1" />
+      <File FileName="Assets\Controls\LobbyFormControl\PlayBarPart.cs" Line="1" Column="1" />
+      <File FileName="Assets\Controls\FacebookUtils.cs" Line="1" Column="1" />
+      <File FileName="Assets\Controls\GameFormControl\GameFormControl.cs" Line="1" Column="1" />
+      <File FileName="Assets\Utils.cs" Line="15" Column="55" />
+      <File FileName="Assets\BrainDueldLib\widgets\LobbyBackendWidget.cs" Line="1" Column="1" />
+      <File FileName="Assets\admobdemo.cs" Line="1" Column="1" />
+      <File FileName="Assets\Controls\LobbyFormControl\LobbyFormControl.cs" Line="1" Column="1" />
+      <File FileName="Assets\Controls\GameFormControl\GameEndDialogPart.cs" Line="1" Column="1" />
+      <File FileName="Assets\Controls\GameFormControl\EventHandlers.cs" Line="1" Column="1" />
+      <File FileName="Assets\BoardStateParser.cs" Line="1" Column="1" />
+      <File FileName="Assets\Controls\LobbyFormControl\IAPPart.cs" Line="1" Column="1" />
+      <File FileName="Assets\Controls\TutorialBox.cs" Line="1" Column="1" />
+      <File FileName="Assets\Controls\ComponentsFormScripts\GameScrollableList.cs" Line="1" Column="1" />
+      <File FileName="Assets\NGUI\Scripts\Internal\NGUIDebug.cs" Line="1" Column="1" />
+      <File FileName="Assets\Controls\UnityLoginFormControl.cs" Line="1" Column="1" />
+      <File FileName="Assets\Controls\BoardScript.cs" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="C:\Users\Einhorn\Desktop\go3\go2\go\Back2Gammon\Assets\Utils.cs" line="168" column="1" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

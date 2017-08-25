@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 0bfbf51cda6eeab48a4a59a5e0ca54dc
+timeCreated: 1485805626
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Collegiate
+  fontNames:
+  - Collegiate
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

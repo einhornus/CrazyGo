@@ -1,0 +1,257 @@
+<?xml version="1.0" standalone="yes"?>
+<NewDataSet>
+  <xs:schema id="NewDataSet" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xs:element name="NewDataSet" msdata:IsDataSet="true" msdata:UseCurrentLocale="true">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Solution_Path">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="SolutionPath" type="xs:string" minOccurs="0" />
+                <xs:element name="SolutionVersion" type="xs:string" minOccurs="0" />
+                <xs:element name="PlogVersion" type="xs:unsignedInt" minOccurs="0" />
+                <xs:element name="ModificationDate" msdata:DateTimeMode="Utc" type="xs:dateTime" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+          <xs:element name="PVS-Studio_Analysis_Log">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="FavIcon" type="xs:boolean" minOccurs="0" />
+                <xs:element name="Level" type="xs:unsignedInt" minOccurs="0" />
+                <xs:element name="DefaultOrder" type="xs:int" minOccurs="0" />
+                <xs:element name="ErrorCode" type="xs:string" minOccurs="0" />
+                <xs:element name="Message" type="xs:string" />
+                <xs:element name="Project" type="xs:string" minOccurs="0" />
+                <xs:element name="ShortFile" type="xs:string" minOccurs="0" />
+                <xs:element name="Line" type="xs:int" />
+                <xs:element name="FalseAlarm" type="xs:boolean" minOccurs="0" />
+                <xs:element name="File" type="xs:string" />
+                <xs:element name="CodePrev" type="xs:unsignedInt" minOccurs="0" />
+                <xs:element name="CodeCurrent" type="xs:unsignedInt" minOccurs="0" />
+                <xs:element name="CodeNext" type="xs:unsignedInt" minOccurs="0" />
+                <xs:element name="TrialMessage" type="xs:boolean" minOccurs="0" />
+                <xs:element name="Analyzer" type="xs:int" minOccurs="0" />
+                <xs:element name="LineExtension" type="xs:string" minOccurs="0" />
+                <xs:element name="Retired" type="xs:boolean" default="false" minOccurs="0" />
+                <xs:element name="AnalyzedSourceFiles" type="xs:string" minOccurs="0" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//PVS-Studio_Analysis_Log" />
+        <xs:field xpath="Line" />
+        <xs:field xpath="Message" />
+        <xs:field xpath="File" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+  <Solution_Path>
+    <SolutionPath>C:\Users\Einhorn\Desktop\CrazyGoProject\go3\go2\go\Back2Gammon\Back2Gammon.sln</SolutionPath>
+    <SolutionVersion>15.0</SolutionVersion>
+    <PlogVersion>4</PlogVersion>
+    <ModificationDate>2017-07-15T03:24:15.2689725Z</ModificationDate>
+  </Solution_Path>
+  <PVS-Studio_Analysis_Log>
+    <FavIcon>false</FavIcon>
+    <Level>2</Level>
+    <DefaultOrder>1</DefaultOrder>
+    <ErrorCode>V3115</ErrorCode>
+    <Message>Passing 'null' to 'Equals' method should not result in 'NullReferenceException'.</Message>
+    <Project>Back2Gammon</Project>
+    <ShortFile>GameSettings.cs</ShortFile>
+    <Line>16</Line>
+    <FalseAlarm>true</FalseAlarm>
+    <File>C:\Users\Einhorn\Desktop\CrazyGoProject\go3\go2\go\Back2Gammon\Assets\BrainDueldLib\model\challengeDetails\GameSettings.cs</File>
+    <CodePrev>123</CodePrev>
+    <CodeCurrent>2676207340</CodeCurrent>
+    <CodeNext>123</CodeNext>
+    <TrialMessage>false</TrialMessage>
+    <Analyzer>4</Analyzer>
+    <LineExtension />
+    <Retired>false</Retired>
+    <AnalyzedSourceFiles />
+  </PVS-Studio_Analysis_Log>
+  <PVS-Studio_Analysis_Log>
+    <FavIcon>false</FavIcon>
+    <Level>3</Level>
+    <DefaultOrder>2</DefaultOrder>
+    <ErrorCode>V3024</ErrorCode>
+    <Message>An odd precise comparison: transform.localPosition.x == 10000. Consider using a comparison with defined precision: Math.Abs(A - B) &lt; Epsilon.</Message>
+    <Project>Back2Gammon</Project>
+    <ShortFile>Utils.cs</ShortFile>
+    <Line>57</Line>
+    <FalseAlarm>true</FalseAlarm>
+    <File>C:\Users\Einhorn\Desktop\CrazyGoProject\go3\go2\go\Back2Gammon\Assets\Brain\Utils.cs</File>
+    <CodePrev>123</CodePrev>
+    <CodeCurrent>1924574230</CodeCurrent>
+    <CodeNext>123</CodeNext>
+    <TrialMessage>false</TrialMessage>
+    <Analyzer>4</Analyzer>
+    <LineExtension />
+    <Retired>false</Retired>
+    <AnalyzedSourceFiles />
+  </PVS-Studio_Analysis_Log>
+  <PVS-Studio_Analysis_Log>
+    <FavIcon>false</FavIcon>
+    <Level>3</Level>
+    <DefaultOrder>3</DefaultOrder>
+    <ErrorCode>V3024</ErrorCode>
+    <Message>An odd precise comparison: transform.localPosition.y == 10000. Consider using a comparison with defined precision: Math.Abs(A - B) &lt; Epsilon.</Message>
+    <Project>Back2Gammon</Project>
+    <ShortFile>Utils.cs</ShortFile>
+    <Line>57</Line>
+    <FalseAlarm>true</FalseAlarm>
+    <File>C:\Users\Einhorn\Desktop\CrazyGoProject\go3\go2\go\Back2Gammon\Assets\Brain\Utils.cs</File>
+    <CodePrev>123</CodePrev>
+    <CodeCurrent>1924574230</CodeCurrent>
+    <CodeNext>123</CodeNext>
+    <TrialMessage>false</TrialMessage>
+    <Analyzer>4</Analyzer>
+    <LineExtension />
+    <Retired>false</Retired>
+    <AnalyzedSourceFiles />
+  </PVS-Studio_Analysis_Log>
+  <PVS-Studio_Analysis_Log>
+    <FavIcon>false</FavIcon>
+    <Level>2</Level>
+    <DefaultOrder>4</DefaultOrder>
+    <ErrorCode>V3057</ErrorCode>
+    <Message>The 'RemoveAt' function could receive the '-1' value while non-negative value is expected. Inspect the first argument.</Message>
+    <Project>Back2Gammon</Project>
+    <ShortFile>LobbySocketThreadedJob.cs</ShortFile>
+    <Line>117</Line>
+    <FalseAlarm>true</FalseAlarm>
+    <File>C:\Users\Einhorn\Desktop\CrazyGoProject\go3\go2\go\Back2Gammon\Assets\BrainDueldLib\threads\LobbySocketThreadedJob.cs</File>
+    <CodePrev>156773985</CodePrev>
+    <CodeCurrent>150848865</CodeCurrent>
+    <CodeNext>125</CodeNext>
+    <TrialMessage>false</TrialMessage>
+    <Analyzer>4</Analyzer>
+    <LineExtension />
+    <Retired>false</Retired>
+    <AnalyzedSourceFiles />
+  </PVS-Studio_Analysis_Log>
+  <PVS-Studio_Analysis_Log>
+    <FavIcon>false</FavIcon>
+    <Level>2</Level>
+    <DefaultOrder>5</DefaultOrder>
+    <ErrorCode>V3066</ErrorCode>
+    <Message>Possible incorrect order of arguments passed to 'SetPixel' method: 'j' and 'i'.</Message>
+    <Project>Back2Gammon</Project>
+    <ShortFile>LightImage.cs</ShortFile>
+    <Line>31</Line>
+    <FalseAlarm>true</FalseAlarm>
+    <File>C:\Users\Einhorn\Desktop\CrazyGoProject\go3\go2\go\Back2Gammon\Assets\BrainDueldLib\utils\pic\LightImage.cs</File>
+    <CodePrev>123</CodePrev>
+    <CodeCurrent>1829724920</CodeCurrent>
+    <CodeNext>125</CodeNext>
+    <TrialMessage>false</TrialMessage>
+    <Analyzer>4</Analyzer>
+    <LineExtension />
+    <Retired>false</Retired>
+    <AnalyzedSourceFiles />
+  </PVS-Studio_Analysis_Log>
+  <PVS-Studio_Analysis_Log>
+    <FavIcon>false</FavIcon>
+    <Level>2</Level>
+    <DefaultOrder>6</DefaultOrder>
+    <ErrorCode>V3066</ErrorCode>
+    <Message>Possible incorrect order of arguments passed to 'GetPixel' method: 'j' and 'i'.</Message>
+    <Project>Back2Gammon</Project>
+    <ShortFile>LightImage.cs</ShortFile>
+    <Line>47</Line>
+    <FalseAlarm>true</FalseAlarm>
+    <File>C:\Users\Einhorn\Desktop\CrazyGoProject\go3\go2\go\Back2Gammon\Assets\BrainDueldLib\utils\pic\LightImage.cs</File>
+    <CodePrev>123</CodePrev>
+    <CodeCurrent>295489704</CodeCurrent>
+    <CodeNext>125</CodeNext>
+    <TrialMessage>false</TrialMessage>
+    <Analyzer>4</Analyzer>
+    <LineExtension />
+    <Retired>false</Retired>
+    <AnalyzedSourceFiles />
+  </PVS-Studio_Analysis_Log>
+  <PVS-Studio_Analysis_Log>
+    <FavIcon>false</FavIcon>
+    <Level>3</Level>
+    <DefaultOrder>7</DefaultOrder>
+    <ErrorCode>V3024</ErrorCode>
+    <Message>An odd precise comparison: rb.komi1 != 0. Consider using a comparison with defined precision: Math.Abs(A - B) &gt; Epsilon.</Message>
+    <Project>Back2Gammon</Project>
+    <ShortFile>GameSettercs.cs</ShortFile>
+    <Line>84</Line>
+    <FalseAlarm>true</FalseAlarm>
+    <File>C:\Users\Einhorn\Desktop\CrazyGoProject\go3\go2\go\Back2Gammon\Assets\Controls\FormControls\GameFormControl\GameSettercs.cs</File>
+    <CodePrev>125</CodePrev>
+    <CodeCurrent>1444933</CodeCurrent>
+    <CodeNext>123</CodeNext>
+    <TrialMessage>false</TrialMessage>
+    <Analyzer>4</Analyzer>
+    <LineExtension />
+    <Retired>false</Retired>
+    <AnalyzedSourceFiles />
+  </PVS-Studio_Analysis_Log>
+  <PVS-Studio_Analysis_Log>
+    <FavIcon>false</FavIcon>
+    <Level>3</Level>
+    <DefaultOrder>8</DefaultOrder>
+    <ErrorCode>V3024</ErrorCode>
+    <Message>An odd precise comparison: rb.komi2 != 0. Consider using a comparison with defined precision: Math.Abs(A - B) &gt; Epsilon.</Message>
+    <Project>Back2Gammon</Project>
+    <ShortFile>GameSettercs.cs</ShortFile>
+    <Line>88</Line>
+    <FalseAlarm>true</FalseAlarm>
+    <File>C:\Users\Einhorn\Desktop\CrazyGoProject\go3\go2\go\Back2Gammon\Assets\Controls\FormControls\GameFormControl\GameSettercs.cs</File>
+    <CodePrev>125</CodePrev>
+    <CodeCurrent>1444981</CodeCurrent>
+    <CodeNext>123</CodeNext>
+    <TrialMessage>false</TrialMessage>
+    <Analyzer>4</Analyzer>
+    <LineExtension />
+    <Retired>false</Retired>
+    <AnalyzedSourceFiles />
+  </PVS-Studio_Analysis_Log>
+  <PVS-Studio_Analysis_Log>
+    <FavIcon>false</FavIcon>
+    <Level>2</Level>
+    <DefaultOrder>9</DefaultOrder>
+    <ErrorCode>V3029</ErrorCode>
+    <Message>The conditional expressions of the 'if' statements situated alongside each other are identical. Check lines: 93, 98.</Message>
+    <Project>Back2Gammon</Project>
+    <ShortFile>GameSettercs.cs</ShortFile>
+    <Line>93</Line>
+    <FalseAlarm>true</FalseAlarm>
+    <File>C:\Users\Einhorn\Desktop\CrazyGoProject\go3\go2\go\Back2Gammon\Assets\Controls\FormControls\GameFormControl\GameSettercs.cs</File>
+    <CodePrev>0</CodePrev>
+    <CodeCurrent>2963846249</CodeCurrent>
+    <CodeNext>123</CodeNext>
+    <TrialMessage>false</TrialMessage>
+    <Analyzer>4</Analyzer>
+    <LineExtension>93,98</LineExtension>
+    <Retired>false</Retired>
+    <AnalyzedSourceFiles />
+  </PVS-Studio_Analysis_Log>
+  <PVS-Studio_Analysis_Log>
+    <FavIcon>false</FavIcon>
+    <Level>2</Level>
+    <DefaultOrder>10</DefaultOrder>
+    <ErrorCode>V3031</ErrorCode>
+    <Message>An excessive check can be simplified. The '||' operator is surrounded by opposite expressions.</Message>
+    <Project>Back2Gammon</Project>
+    <ShortFile>GameSettercs.cs</ShortFile>
+    <Line>211</Line>
+    <FalseAlarm>true</FalseAlarm>
+    <File>C:\Users\Einhorn\Desktop\CrazyGoProject\go3\go2\go\Back2Gammon\Assets\Controls\FormControls\GameFormControl\GameSettercs.cs</File>
+    <CodePrev>0</CodePrev>
+    <CodeCurrent>540010702</CodeCurrent>
+    <CodeNext>123</CodeNext>
+    <TrialMessage>false</TrialMessage>
+    <Analyzer>4</Analyzer>
+    <LineExtension />
+    <Retired>false</Retired>
+    <AnalyzedSourceFiles />
+  </PVS-Studio_Analysis_Log>
+</NewDataSet>
