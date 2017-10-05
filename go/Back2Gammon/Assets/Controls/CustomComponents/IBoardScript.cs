@@ -14,10 +14,12 @@ public enum InputMethod
 
 public interface IBoardScript
 {
-    void SetState(ResponseBase rb);
-    Point GetCurrentMoveIndicator();
-    int GetN();
-    void SetUserTogglePoint(Action<Point> p);
-    InputMethod GetCurrentInputMethod();
-    void SetCurrentInputMethod(InputMethod im);
+    void SetOnUserTogglePoint(Action<Point> p);
+    void ChangeStone(int x, int y, Stone stone);
+    void SetLastMove(int x, int y);
+    void DeleteLastMove();
+    void Init(int size);
+    void SetAimBlack();
+    void SetAimWhite();
+    void SetAimInvisible();
 }

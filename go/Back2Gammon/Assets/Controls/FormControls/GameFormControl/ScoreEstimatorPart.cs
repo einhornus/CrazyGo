@@ -13,7 +13,7 @@ using System.Collections.Generic;
 public partial class GameFormControl : ControlBase
 {
     public UISprite sePopup;
-    public BoardScript seBoard;
+    public BoardScriptController seController;
     public UIButton seOpenButton;
     public UIButton seCloseButton;
     public UILabel blackScore;
@@ -72,7 +72,7 @@ public partial class GameFormControl : ControlBase
     public void StartEstimation()
     {
         userTouches = new List<Move>();
-        seBoard.SetUserTogglePoint(
+        seController.SetAction(
             delegate (Point x)
             {
                 bool contains = false;
@@ -108,7 +108,7 @@ public partial class GameFormControl : ControlBase
         int[,] brd = CookBoard(seResponseSealed);
         ResponseBase newRes = CookRes(brd);
         BoardStateParser.Dump(newRes);
-        this.seBoard.SetState(newRes);
+        this.seController.SetState(newRes);
     }
 
     public void SetResponse(ResponseBase seResponse)

@@ -10,7 +10,11 @@ public partial class GameFormControl : ControlBase
     public UILabel firstPlayerTime;
     public UILabel secondPlayerTime;
     public UILabel setupRemaining;
+    public BoardScriptController controller;
     private int black;
+
+
+
 
     public void UpdateAfterState(ResponseBase rb, int index)
     {
@@ -38,11 +42,12 @@ public partial class GameFormControl : ControlBase
     public void HideDisabledButtons()
     {
         UIButton[] buttonsList = new UIButton[] { goButton, this.moveButton, this.askButton, agreeButton, passButton, seOpenButton };
-        for (int i = 0; i<buttonsList.Length; i++)
+        for (int i = 0; i < buttonsList.Length; i++)
         {
             if (!buttonsList[i].isEnabled)
             {
-                if (!Utils.IsUnvisible(buttonsList[i].transform)) {
+                if (!Utils.IsUnvisible(buttonsList[i].transform))
+                {
                     Utils.MakeUnvisible(buttonsList[i].transform);
                 }
             }
@@ -81,16 +86,16 @@ public partial class GameFormControl : ControlBase
             this.firstPlayerColor.spriteName = BoardStateParser.GetSprite(Stone.WHITE);
             this.secondPlayerColor.spriteName = BoardStateParser.GetSprite(Stone.BLACK);
         }
-        if (rb.komi1 != 0) //-V3024
+        if (rb.komi1 != 0)
         {
             this.firstPlayerKomi.text = "Komi: " + rb.komi1 + "";
         }
-        if (rb.komi2 != 0) //-V3024
+        if (rb.komi2 != 0)
         {
             this.secondPlayerKomi.text = "Komi: " + rb.komi2 + "";
         }
 
-        if (rb.me == MeEnum.OBSERVER) //-V3029
+        if (rb.me == MeEnum.OBSERVER)
         {
             resignButton.isEnabled = false;
         }
@@ -100,7 +105,7 @@ public partial class GameFormControl : ControlBase
             chatButton.isEnabled = false;
         }
 
-        board.SetState(rb);
+        controller.SetState(rb);
     }
 
     public void SetUpdateAfterStateCountingResponce(CountingResponse rb, int index)
@@ -109,7 +114,6 @@ public partial class GameFormControl : ControlBase
         {
             this.agreeButton.isEnabled = true;
         }
-        board.SetCurrentInputMethod(InputMethod.Desktop);
     }
 
     public void SetUpdateAfterStateHMSetupResponce(HiddenMoveGoSetupResponse rb, int index)
@@ -180,12 +184,9 @@ public partial class GameFormControl : ControlBase
         }
 
         int current = rb.current;
-        if (board.GetCurrentInputMethod() == InputMethod.Mobile && current == index)
+        if (rb.me != MeEnum.OBSERVER)
         {
-            if (rb.me != MeEnum.OBSERVER)
-            {
-                moveButton.isEnabled = true;
-            }
+            moveButton.isEnabled = true;
         }
 
         if (current == 0)

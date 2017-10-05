@@ -19,7 +19,6 @@ public class LeelaConstructor {
     public int threads = 4;
     public int COLLEGE = 2;
 
-
     public class Jobber implements Action<LeelaResponse>{
         @Override
         public void doJob(LeelaResponse item) {

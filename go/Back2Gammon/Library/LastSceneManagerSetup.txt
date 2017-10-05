@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Forms/lobby.unity
+- path: Assets/Forms/editor.unity
   isLoaded: 1
   isActive: 1

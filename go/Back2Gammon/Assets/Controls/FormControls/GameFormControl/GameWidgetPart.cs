@@ -118,16 +118,10 @@ public partial class GameFormControl : ControlBase
         delegate
         {
             //pressButtonSound.Play();
-            Point a = board.GetCurrentMoveIndicator();
+            Point a = this.controller.GetCurrentMoveIndicator();
             if (a != null)
             {
-                if (a.x >= 0 && a.x < board.GetN())
-                {
-                    if (a.y >= 0 && a.y < board.GetN())
-                    {
-                        gameWidget.MakeAMove(a.x + "-" + a.y);
-                    }
-                }
+                gameWidget.MakeAMove(a.x + "-" + a.y);
             }
         }
         )));
@@ -220,6 +214,7 @@ public partial class GameFormControl : ControlBase
             }
         )));
 
+        /*
         this.board.SetUserTogglePoint(delegate (Point a)
         {
             if (a.x >= 0 && a.x < this.board.GetN())
@@ -230,6 +225,7 @@ public partial class GameFormControl : ControlBase
                 }
             }
         });
+        */
 
         gameWidget.Go();
         SetInitialData();
